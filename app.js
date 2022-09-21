@@ -4,7 +4,7 @@ var outputdiv=document.querySelector("#output");
 var errorbox=document.querySelector("#outputbox")
 
 
-var serverURL=	"https://api.funtranslations.com/translate/minion.json"
+var serverURL=	"https://api.funtranslations.com/translate/valyrian.json"
 
 function getTranslationURL(input){
         return serverURL+"?"+"text="+input;
